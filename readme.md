@@ -7,3 +7,4 @@ If you are interested, feel free to contact me: [vk], [facebook] [fb], [linkedIn
 [vk]: <https://vk.com/id1370659>
 [fb]:
 [LIn]: <https://ru.linkedin.com/in/екатерина-иванюта-78143a104>
+[mail]: <ksu--shka@mail.ru>
