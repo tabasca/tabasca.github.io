@@ -25,10 +25,10 @@ var reload = browserSync.reload;
 var path = {
     build: { //Тут мы укажем куда складывать готовые после сборки файлы
         html: '',
-        js: '/js/',
-        css: '/css/',
-        img: '/img/',
-        fonts: '/fonts/'
+        js: 'js/',
+        css: 'css/',
+        img: 'img/',
+        fonts: 'fonts/'
     },
     src: { //Пути откуда брать исходники
         html: 'source/*.html', // все файлы с расширением .html
