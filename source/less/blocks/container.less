@@ -1,0 +1,22 @@
+.container {
+  outline: 2px solid red;
+  .clearfix();
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  text-align: center;
+  @media @mobile {
+    min-width: 320px;
+    max-width: 659px;
+  }
+  @media @tablet {
+    min-width: 660px;
+    max-width: 959px;
+  }
+  @media @desktop {
+    min-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

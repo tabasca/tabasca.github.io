@@ -174,8 +174,3 @@ gulp.task('watch', function(){
         gulp.start('fonts:build');
     });
 });
-
-
-
-// Оставьте эту строку в самом конце файла
-require("./.gosha");
