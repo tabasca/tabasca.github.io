@@ -32,8 +32,8 @@ var path = {
     },
     src: { //Пути откуда брать исходники
         html: 'source/*.html', // все файлы с расширением .html
-        js: ['source/js/vendors/*.js', 'node_modules/flickity/dist/*.pkgd.js', 'source/js/*.js'],
-        style: ['source/less/style.less', 'node_modules/flickity/dist/*css'],
+        js: ['source/js/vendors/*.js', 'source/js/*.js'],
+        style: ['source/less/style.less'],
         img: 'source/img/**/*.{jpg,jpeg,png,gif}',
 		    imgsvg: 'source/img/**/*.svg',
         fonts: 'source/fonts/**/*.*'

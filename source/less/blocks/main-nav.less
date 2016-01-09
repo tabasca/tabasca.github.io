@@ -1,14 +1,28 @@
 .main-nav {
+  position: absolute;
   width: 100%;
   background: @purple;
   color: @white;
+  z-index: 1;
   &__list {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0;
     margin: 0;
     list-style: none;
+  }
+  &__item {
+    margin: 40px 0;
+    text-align: center;
+
+  }
+  &__link {
+    color: @white;
+    text-transform: capitalize;
+    &:hover {
+      color: @yellow;
+    }
   }
 }

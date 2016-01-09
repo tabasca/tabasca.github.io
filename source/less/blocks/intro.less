@@ -1,4 +1,43 @@
 .intro {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  // padding-top: 300px;
   background: @purple;
   .clearfix();
+  &__title {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    line-height: 1;
+    color: @white;
+    // text-transform: uppercase;
+  }
+  &__text {
+    font-size: 22px;
+    line-height: 1;
+    &--main {
+      padding: 0;
+      margin: 0;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-size: 66px;
+      line-height: 1;
+      font-weight: normal;
+      color: @white;
+    }
+    &--decor {
+      font-size: 66px;
+      font-weight: 700;
+    }
+    &--description {
+      color: @yellow;
+    }
+  }
+  &__description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
