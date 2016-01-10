@@ -6,7 +6,7 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <title></title>
   <link href='https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body class="page">
@@ -20,8 +20,8 @@
         <nav class="main-nav">
           <div class="container">
             <ul class="main-nav__list">
-              <li class="main-nav__item"><a href="" class="main-nav__link">about</a></li>
-              <li class="main-nav__item"><a href="" class="main-nav__link">work</a></li>
+              <li class="main-nav__item"><a href="#about" class="main-nav__link">about</a></li>
+              <li class="main-nav__item"><a href="#portfolio" class="main-nav__link">work</a></li>
               <li class="main-nav__item"><a href="" class="main-nav__link">blog</a></li>
               <li class="main-nav__item"><a href="" class="main-nav__link">contacts</a></li>
             </ul>
@@ -75,7 +75,7 @@
       </div>
     </section>
 
-    <section class="layer">
+    <section id="about" class="layer">
       <div class="container">
         <div class="layer__box  layer__box--intro">
           <img src="" alt="" class="layer__img  layer__img--main">
@@ -97,12 +97,6 @@
             <div class="layer__wrapper">
               <p class="layer__text  layer__text--decor">Adobe Photoshop</p>
             </div>
-            <div class="layer__wrapper">
-              <p class="layer__text  layer__text--decor">Adobe Illustrator</p>
-            </div>
-            <div class="layer__wrapper">
-              <p class="layer__text  layer__text--decor">Adobe Indesign</p>
-            </div>
             <p class="layer__text  layer__text--underline">Coding</p>
             <div class="layer__wrapper">
               <p class="layer__text  layer__text--decor">Html/Html5</p>
@@ -118,45 +112,80 @@
       </div>
     </section>
 
-    <section class="layer  layer--yellow">
+    <section id="portfolio" class="layer  layer--yellow">
       <div class="container">
         <div class="layer__box  layer__box--intro">
           <h1 class="layer__title  layer__title--main">Portfolio</h1>
           <p class="layer__text  layer__text--desktop">Do you want to know me better?</p>
         </div>
         <div class="wrapper">
-          <div class="layer__box  layer__box--one_third_width">
-            <h2 class="layer__title">Project name</h2>
-            <p class="layer__text">iOS 7 Weather App Design</p>
-            <h2 class="layer__title">Project description</h2>
-            <ul class="layer-list">
-              <li class="layer-list__item">iOS 7 Design</li>
-              <li class="layer-list__item">Weather App icons</li>
-              <li class="layer-list__item">iPhone App Design</li>
-            </ul>
-            <p class="layer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium sem et justo tempor egestas quis at odio.
-    Suspendisse nunc sem, ultrices congue posuere in, porttitor a sem.</p>
-            <h2 class="layer__title">Project web site</h2>
-            <ul class="layer-list">
-              <li class="layer-list__item">http://www.uipixels.com/</li>
-            </ul>
-            <h2 class="layer__title">Tags</h2>
-            <p class="layer__text">
-              iphone, iOs 7, weather app, design, apple
-            </p>
-          </div>
-          <div class="layer__box">
-            <div class="slider">
-              <img src="" alt="">
+          <script id="basic-template" type="text/html">
+            <div class="layer__box  layer__box--one_third_width">
+              <h2 class="layer__title">Project name</h2>
+              <p class="layer__text">HtmlAcademy: Basic Html&CSS Course</p>
+              <h2 class="layer__title">Project description</h2>
+              <ul class="layer-list">
+                <li class="layer-list__item">iOS 7 Design</li>
+                <li class="layer-list__item">Weather App icons</li>
+                <li class="layer-list__item">iPhone App Design</li>
+              </ul>
+              <p class="layer__text">создадите разметку, поработаете с графическим макетом в фотошопе, построите сетки страниц, оформите декоративные элементы и текстовое содержание, оптимизируете код и подготовите завершённый проект к публикации. На каждом этапе вашу работу будет проверять и комментировать личный наставник.</p>
+              <h2 class="layer__title">Project web site</h2>
+              <ul class="layer-list">
+                <li class="layer-list__item"><a href="http://tabasca.github.io/base_sedona" target="_blank">http://tabasca.github.io/base_sedona</a></li>
+              </ul>
+              <h2 class="layer__title">Tags</h2>
+              <p class="layer__text">
+                iphone, iOs 7, weather app, design, apple
+              </p>
             </div>
-          </div>
+            <div class="layer__box">
+              <div class="slider">
+                <img src="" alt="">
+              </div>
+            </div>
+          </script>
+          <script id="advanced-template" type="text/html">
+            <div class="layer__box  layer__box--one_third_width">
+              <h2 class="layer__title">Project name</h2>
+              <p class="layer__text">Pink</p>
+              <h2 class="layer__title">Project description</h2>
+              <ul class="layer-list">
+                <li class="layer-list__item">Pink html</li>
+                <li class="layer-list__item">Css</li>
+                <li class="layer-list__item">iPhone App Design</li>
+              </ul>
+              <p class="layer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium sem et justo tempor egestas quis at odio.
+      Suspendisse nunc sem, ultrices congue posuere in, porttitor a sem.</p>
+              <h2 class="layer__title">Project web site</h2>
+              <ul class="layer-list">
+                <li class="layer-list__item">http://www.uipixels.com/</li>
+              </ul>
+              <h2 class="layer__title">Tags</h2>
+              <p class="layer__text">
+                iphone, iOs 7, weather app, design, apple
+              </p>
+            </div>
+            <div class="layer__box">
+              <div class="slider">
+                <img src="" alt="">
+              </div>
+            </div>
+          </script>
         </div>
         <div class="layer__box  layer__box--rombs">
           <div class="portfolio">
             <div class="portfolio__item">
-              <h3 class="portfolio__title">iOS 7 Weather App Design</h3>
+              <h3 class="portfolio__title">HtmlAcademy: Basic Html&CSS Course</h3>
               <p class="portfolio__text">blablabla</p>
-              <button class="portfolio__btn">+</button>
+              <button id="basic_btn" class="portfolio__btn">+</button>
+            </div>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio__item">
+              <h3 class="portfolio__title">Advanced intensiv</h3>
+              <p class="portfolio__text">blablabla</p>
+              <button id="advanced_btn" class="portfolio__btn">+</button>
             </div>
           </div>
           <div class="portfolio">
@@ -180,14 +209,6 @@
               <button class="portfolio__btn">+</button>
             </div>
           </div>
-          <div class="portfolio">
-            <div class="portfolio__item">
-              <h3 class="portfolio__title">iOS 7 Weather App Design</h3>
-              <p class="portfolio__text">blablabla</p>
-              <button class="portfolio__btn">+</button>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
@@ -198,5 +219,6 @@
   <footer class="page-footer">
 
   </footer>
+  <script src="js/main.js"></script>
 
 </body>
