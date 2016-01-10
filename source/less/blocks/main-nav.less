@@ -14,8 +14,13 @@
     list-style: none;
   }
   &__item {
-    margin: 40px 0;
     text-align: center;
+    @media @mobile {
+      margin: 10px 0;
+    }
+    @media @desktop {
+      margin: 40px 0;
+    }
 
   }
   &__link {
