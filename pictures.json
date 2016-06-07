@@ -20,12 +20,12 @@
   "date": "2016-04-12"
 }, {
   "likes": 100,
-  "title": 18,
-  "url": "photos/5.jpg",
+  "title": "Марина Голубева",
+  "url": "img/test_5.jpg",
   "date": "2016-04-15"
 }, {
   "likes": 88,
-  "title": 56,
-  "url": "photos/6.jpg",
+  "title": "Анатолий Агурбаш",
+  "url": "img/test_6.jpg",
   "date": "2016-04-24"
 }]
