@@ -1,0 +1,23 @@
+[
+  {
+    "id": 17,
+    "user": "asdasdasd@sdfsdvsdv.ru",
+    "image": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "likes": 1,
+    "cantvote": false
+  },
+  {
+    "id": 12,
+    "user": "asdasd@sdvnsjkdv.ru",
+    "image": "/uploads/media/default/0001/01/thumb_12_default_default.jpeg",
+    "likes": 0,
+    "cantvote": true
+  },
+  {
+    "id": 18,
+    "user": "asdasdasd@sdfsdvsdv.ru",
+    "image": "/uploads/media/default/0001/01/thumb_18_default_default.jpeg",
+    "likes": 0,
+    "cantvote": true
+  }
+]
