@@ -19,5 +19,12 @@
     "image": "/uploads/media/default/0001/01/thumb_18_default_default.jpeg",
     "likes": 0,
     "cantvote": true
+  },
+  {
+    "id": 256,
+    "user": "asdasdasd@sdfsdvsdv.ru",
+    "image": "/uploads/media/default/0001/01/thumb_18_default_default.jpeg",
+    "likes": 1500,
+    "cantvote": true
   }
 ]
