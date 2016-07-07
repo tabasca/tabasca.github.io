@@ -53,7 +53,7 @@
 	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
 	newWin.focus();
 	
-	$(newWin).on('load', function () {
+	newWin.addEventListener('load', function () {
 		var intervalForLoginViaFb;
   
 		intervalForLoginViaFb = setInterval(function () {
