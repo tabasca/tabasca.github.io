@@ -53,9 +53,9 @@
 	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
 	newWin.focus();
 	
-	newWin.addEventListener('DOMContentLoaded', function() {
-		console.log(newWin.location.hash);
-		if (newWin.location.hash === 'works') {
+	docuemnt.addEventListener('DOMContentLoaded', function() {
+		console.log(document.location.hash);
+		if (document.location.hash === 'works') {
 			newWin.close();
 		}
 	});
