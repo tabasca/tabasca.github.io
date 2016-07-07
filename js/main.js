@@ -46,6 +46,22 @@
       projectArea.innerHTML = projectArea.innerHTML + html;
     };
   };
+  
+  var testBtn = document.querySelector(".testBtn");
+  
+  testBtn.addEventListener('click', function() {
+    var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', width=500, height = 300, resizable=no, status=no, location=yes");
+		newWin.focus();
+  
+  intervalForLoginViaFb = setInterval(function () {
+			if (newWin.location.href === 'https://tabasca.github.io/#works') {
+				newWin.close();
+				clearInterval(intervalForLoginViaFb);
+			}
+		}, 1000);
+  });
+  
+  
 
   // function delProjectTwo() {
   //   var elem = document.querySelector("#advanced-template").innerHTML;
