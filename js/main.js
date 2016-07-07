@@ -68,7 +68,7 @@
   
 document.addEventListener('DOMContentLoaded', function() {
 	console.log(document.location.hash);
-	if (document.location.hash === 'works') {
+	if (document.location.hash === '#works') {
 		window.close();
 	}
 });
