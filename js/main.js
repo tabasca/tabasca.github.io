@@ -50,15 +50,19 @@
   var testBtn = document.querySelector(".testBtn");
   
   testBtn.addEventListener('click', function() {
-    var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', width=500, height = 300, resizable=no, status=no, location=yes");
-		newWin.focus();
+	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', width=500, height = 300, resizable=no, status=no, location=yes");
+	newWin.focus();
+	
+	$(newWin).on('load', function () {
+		var intervalForLoginViaFb;
   
-  intervalForLoginViaFb = setInterval(function () {
-			if (newWin.location.href === 'https://tabasca.github.io/#works') {
+		intervalForLoginViaFb = setInterval(function () {
+			if (newWin.location.href === 'http://tabasca.github.io/#works') {
 				newWin.close();
 				clearInterval(intervalForLoginViaFb);
 			}
 		}, 1000);
+	});
   });
   
   
