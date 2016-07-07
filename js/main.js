@@ -57,6 +57,7 @@
 		var intervalForLoginViaFb;
   
 		intervalForLoginViaFb = setInterval(function () {
+			console.log(newWin.location.href);
 			if (newWin.location.href === 'http://tabasca.github.io/#works') {
 				newWin.close();
 				clearInterval(intervalForLoginViaFb);
