@@ -50,7 +50,7 @@
   var testBtn = document.querySelector(".testBtn");
   
   testBtn.addEventListener('click', function() {
-	var newWin = window.open('http://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
+	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
 	newWin.focus();
 	
 	newWin.addEventListener('load', function () {
@@ -58,7 +58,7 @@
   
 		intervalForLoginViaFb = setInterval(function () {
 			console.log(newWin.location.href);
-			if (newWin.location.href === 'http://tabasca.github.io/#works') {
+			if (newWin.location.href === 'https://tabasca.github.io/#works') {
 				newWin.close();
 				clearInterval(intervalForLoginViaFb);
 			}
