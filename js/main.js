@@ -53,9 +53,13 @@
 	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
 	newWin.focus();
 	
-	if (document.location.hash === 'works') {
-		newWin.close();
-	}
+	document.addEventListener('DOMContentLoaded', function() {
+		if (document.location.hash === 'works') {
+			newWin.close();
+		}
+	});
+	
+	
 	
 	// newWin.addEventListener('load', function () {
 	// 	var intervalForLoginViaFb;
