@@ -50,7 +50,7 @@
   var testBtn = document.querySelector(".testBtn");
   
   testBtn.addEventListener('click', function() {
-	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', width=500, height = 300, resizable=no, status=no, location=yes");
+	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
 	newWin.focus();
 	
 	$(newWin).on('load', function () {
