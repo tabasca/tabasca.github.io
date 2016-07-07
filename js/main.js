@@ -53,15 +53,6 @@
 	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
 	newWin.focus();
 	
-	document.addEventListener('DOMContentLoaded', function() {
-		console.log(document.location.hash);
-		if (document.location.hash === 'works') {
-			window.close();
-		}
-	});
-	
-	
-	
 	// newWin.addEventListener('load', function () {
 	// 	var intervalForLoginViaFb;
   
@@ -74,6 +65,13 @@
 	// 	}, 1000);
 	// });
   });
+  
+document.addEventListener('DOMContentLoaded', function() {
+	console.log(document.location.hash);
+	if (document.location.hash === 'works') {
+		window.close();
+	}
+});
   
   
 
