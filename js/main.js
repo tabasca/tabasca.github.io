@@ -53,17 +53,21 @@
 	var newWin = window.open('https://tabasca.github.io/#works', 'JSSite', "width=500, height = 300, resizable=no, status=no, location=yes");
 	newWin.focus();
 	
-	newWin.addEventListener('load', function () {
-		var intervalForLoginViaFb;
+	if (document.location.hash === 'works') {
+		newWin.close();
+	}
+	
+	// newWin.addEventListener('load', function () {
+	// 	var intervalForLoginViaFb;
   
-		intervalForLoginViaFb = setInterval(function () {
-			console.log(newWin.location.href);
-			if (newWin.location.href === 'https://tabasca.github.io/#works') {
-				newWin.close();
-				clearInterval(intervalForLoginViaFb);
-			}
-		}, 1000);
-	});
+	// 	intervalForLoginViaFb = setInterval(function () {
+	// 		console.log(newWin.location.href);
+	// 		if (newWin.location.href === 'https://tabasca.github.io/#works') {
+	// 			newWin.close();
+	// 			clearInterval(intervalForLoginViaFb);
+	// 		}
+	// 	}, 1000);
+	// });
   });
   
   
