@@ -82,5 +82,29 @@
     "title": "Овсянная каша с клубникой и миндалем",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
+  },
+  {
+    "id": "orange",
+    "theme": "Пятница",
+    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "title": "Овсянная каша с клубникой и миндалем",
+    "text": "Изысканный завтрак для отличного дня",
+    "href": "/post.html"
+  },
+  {
+    "id": "orange",
+    "theme": "Суббота",
+    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "title": "Овсянная каша с клубникой и миндалем",
+    "text": "Изысканный завтрак для отличного дня",
+    "href": "/post.html"
+  },
+  {
+    "id": "orange",
+    "theme": "Воскресенье",
+    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "title": "Компот",
+    "text": "Изысканный завтрак для отличного дня",
+    "href": "/post.html"
   }
 ]
