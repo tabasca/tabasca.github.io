@@ -53,6 +53,14 @@
   },
   {
     "id": "orange",
+    "theme": "Четверг",
+    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "title": "Трололо",
+    "text": "Изысканный завтрак для отличного дня",
+    "href": "/post.html"
+  },
+  {
+    "id": "orange",
     "theme": "Среда",
     "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
     "title": "Овсянная каша с клубникой и миндалем",
