@@ -2,35 +2,35 @@
   {
     "label": "New",
     "theme": "Учимся",
-    "img": "/img/article_8.jpg",
+    "img": "/img/article_1.jpg",
     "title": "Совместное творчество: поделки на весенние темы",
     "text": "Простые идеи поделок на весенние темы вместе с детьми",
     "href": "/post.html"
   },
   {
      "theme": "Играем",
-    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "img": "/img/article_2.jpg",
     "title": "Польза яблочного сока",
     "text": "Чем полезен яблочный сок, полезные свойства яблочного сока",
     "href": "/post.html"
   },
   {
      "theme": "Читаем",
-    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "img": "/img/article_3.jpg",
     "title": "Развивающие игры с детьми на улице",
     "text": "С приходом весны дети все больше времени проводят на улице. Как превратить уличные игры в полезное для детского развития времяпровождение?",
     "href": "/post.html"
   },
   {
     "theme": "Советы психолога",
-    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "img": "/img/article_4.jpg",
     "title": "Детский день рождения в стиле «Холодное сердце»",
     "text": "Польза рисования для детей младшего школьного возраста",
     "href": "/post.html"
   },
   {
     "theme": "Учимся",
-    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "img": "/img/article_5.jpg",
     "title": "Детский день рождения в стиле «Холодное сердце»",
     "text": "Польза рисования для детей младшего школьного возраста",
     "href": "/post.html"
@@ -38,7 +38,7 @@
   {
     "id": "orange",
     "theme": "Понедельник",
-    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "img": "/img/article_6.jpg",
     "title": "Голубцы с творогом «Зимняя сказка»",
     "text": "Необычное сочетание знакомых продуктов",
     "href": "/post.html"
@@ -46,7 +46,7 @@
   {
     "id": "orange",
     "theme": "Вторник",
-    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "img": "/img/article_7.jpg",
     "title": "Овсянная каша с клубникой и миндалем",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
@@ -54,7 +54,7 @@
   {
     "id": "orange",
     "theme": "Четверг",
-    "img": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "img": "/img/article_8.jpg",
     "title": "Трололо",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
