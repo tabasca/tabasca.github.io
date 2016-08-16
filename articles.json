@@ -38,7 +38,7 @@
   {
     "id": "orange",
     "theme": "Понедельник",
-    "img": "/img/article_6.jpg",
+    "img": "/img/recipes/orange/recipe_1.jpg",
     "title": "Голубцы с творогом «Зимняя сказка»",
     "text": "Необычное сочетание знакомых продуктов",
     "href": "/post.html"
@@ -46,23 +46,23 @@
   {
     "id": "orange",
     "theme": "Вторник",
-    "img": "/img/article_7.jpg",
+    "img": "/img/recipes/orange/recipe_2.jpg",
     "title": "Овсянная каша с клубникой и миндалем",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
   },
   {
     "id": "orange",
-    "theme": "Четверг",
-    "img": "/img/article_8.jpg",
+    "theme": "Среда",
+    "img": "/img/recipes/orange/recipe_3.jpg",
     "title": "Трололо",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
   },
   {
     "id": "orange",
-    "theme": "Среда",
-   "img": "/img/article_3.jpg",
+    "theme": "Четверг",
+    "img": "/img/recipes/orange/recipe_4.jpg",
     "title": "Овсянная каша с клубникой и миндалем",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
@@ -78,7 +78,7 @@
   {
     "id": "apple-with-pulp",
     "theme": "Среда",
-   "img": "/img/article_3.jpg",
+    "img": "/img/article_3.jpg",
     "title": "Овсянная каша с клубникой и миндалем",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
@@ -86,7 +86,7 @@
   {
     "id": "orange",
     "theme": "Пятница",
-    "img": "/img/article_3.jpg",
+    "img": "/img/recipes/orange/recipe_5.jpg",
     "title": "Овсянная каша с клубникой и миндалем",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
@@ -94,7 +94,7 @@
   {
     "id": "orange",
     "theme": "Суббота",
-    "img": "/img/article_3.jpg",
+    "img": "/img/recipes/orange/recipe_6.jpg",
     "title": "Овсянная каша с клубникой и миндалем",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
@@ -102,7 +102,7 @@
   {
     "id": "orange",
     "theme": "Воскресенье",
-    "img": "/img/article_3.jpg",
+    "img": "/img/recipes/orange/recipe_7.jpg",
     "title": "Компот",
     "text": "Изысканный завтрак для отличного дня",
     "href": "/post.html"
