@@ -2,28 +2,28 @@
   {
     "id": "test2",
     "user": "asdasdasd@sdfsdvsdv.ru",
-    "image": "/uploads/media/default/0001/01/thumb_17_default_default.jpeg",
+    "image": "/img/gallery_pic_1.jpg",
     "likes": 1,
     "cantvote": false
   },
   {
     "id": 12,
     "user": "asdasd@sdvnsjkdv.ru",
-    "image": "/uploads/media/default/0001/01/thumb_12_default_default.jpeg",
+    "image": "/img/gallery_pic_1.jpg",
     "likes": 0,
     "cantvote": true
   },
   {
     "id": 18,
     "user": "asdasdasd@sdfsdvsdv.ru",
-    "image": "/uploads/media/default/0001/01/thumb_18_default_default.jpeg",
+    "image": "/img/gallery_pic_2.jpg",
     "likes": 0,
     "cantvote": true
   },
   {
     "id": 256,
     "user": "asdasdasd@sdfsdvsdv.ru",
-    "image": "/uploads/media/default/0001/01/thumb_18_default_default.jpeg",
+    "image": "/img/gallery_pic_3.jpg",
     "likes": 1500,
     "cantvote": false
   }
