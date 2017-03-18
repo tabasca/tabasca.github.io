@@ -1,4 +1,5 @@
 Hi! That's Kate's portfolio as a frontend-developer.
+
 Things I know: html5, css3, less/sass, BEM, gulp/grunt, JS (vanilla( es5/es6 ), jquery, react+redux).
 
 If you are interested, feel free to contact me: [vk], [LinkedIn], [mail], [skype]
