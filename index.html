@@ -25,6 +25,7 @@
 		evt.preventDefault();
 		if (inserted) { return false; }
 		clone = clone ? clone : elem.cloneNode(true);
+		clone.classList.add('cloned');
 		elem.parentNode.appendChild(clone);
 		inserted = true;
 	});
