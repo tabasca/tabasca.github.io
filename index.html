@@ -1,3 +1,32 @@
 <video autoplay="autoplay" muted playsinline="playsinline" class="video">
 	<source src="/static-assets/video/cats_1.mp4" type="video/mp4">
 </video>
+
+<button id="simple-clone">Clone Video WIthout Inserting</button>
+<button id="clone-and-insert">Clone Video And Insert After Original One</button>
+
+<script>
+	var cloneBtn = document.getElementById('simple-clone');
+	var cloneAndInsertBtn = document.getElementById('clone-and-insert');
+
+	var elem = document.querySelector('video');
+	var clone;
+	var cloned = false;
+	var inserted = false;
+
+	cloneBtn.addEventListener('click', function (evt) {
+		evt.preventDefault();
+		if (cloned) { return false; }
+		clone = elem.cloneNode(true);
+		cloned = true;
+	});
+
+	cloneAndInsertBtn.addEventListener('click', function (evt) {
+		evt.preventDefault();
+		if (inserted) { return false; }
+		clone = clone ? clone : elem.cloneNode(true);
+		elem.parentNode.appendChild(clone);
+		inserted = true;
+	});
+
+</script>
